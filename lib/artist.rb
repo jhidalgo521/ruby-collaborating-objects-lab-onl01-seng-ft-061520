@@ -45,7 +45,11 @@ class Artist
     #create method 
     def self.create(name)
       artist = self.new(name)
+<<<<<<< HEAD
       #@@all << artist 
+=======
+      @@all << artist 
+>>>>>>> 41c0a404ba38698c5bd5bab6f6ca77e42309e89b
       artist
     end 
   
